@@ -114,6 +114,7 @@ public class GameOn {
 			if(reset==1)
 			{
 				Reset(board);
+				printBoard(board);
 				return true;
 			}
 			else
@@ -129,7 +130,6 @@ public class GameOn {
 	
 	public static void Reset(char board[][])
 	{
-		printBoard(board);
 		for(int i=0;i<board.length;i++)
 		{
 			
