@@ -104,7 +104,7 @@ public class GameOn {
 			}
 			
 		}
-		if(occupied<=8)
+		if(occupied>=8)
 		{
 			printBoard(board);
 			System.err.println("********** No Body Won :(**********");
